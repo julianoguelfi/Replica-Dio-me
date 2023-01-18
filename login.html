@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Entrar</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Planos</a></li>
+                <li><a href="#">Para Empresas</a></li>
+            </ul>
+        </nav>
+
+        <input type="button" value="ENTRAR" id="btn-entrar">
+        <input type="button" value="CADASTRAR" id="btn-cadastrar">
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <div id="article-geral">
+                    <div class="identificador" id="marcador-ident-article"></div>
+
+                    <p>A plataforma para <br>
+                        você aprender com <br>
+                        experts, dominar as <br>
+                        principais <br>
+                        tecnologias e <br>
+                        entrar mais rápido <br>
+                        nas empresas mais <br>
+                        desejadas.</p>
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <aside>
+                <div id="aside-geral">
+                    <div class="identificador" id="marcador-ident-aside"></div>
+                    <h1>Já tem cadastro?</h1>
+                    <p>Faça seu login e make the change._</p>
+
+                    <form action="#" method="POST" autocomplete="off">
+                        <input type="email" name="email" id="form-email" class="input"
+                            placeholder="&nbsp; &nbsp; E-mail">
+                        <br>
+
+                        <input type="password" name="senha" id="form-senha" class="input"
+                            placeholder="&nbsp; &nbsp; Senha">
+                        <br>
+
+                        <div id="botao">
+                            <input type="button" value="ENTRAR" onclick="entrar()" id="btn_entrar">
+                        </div>
+                    </form>
+
+                    <div id="link-conta-senha">
+                        <table>
+                            <tr>
+                                <td id="esqueci-senha"><a href="#">Esqueci minha senha.</a></td>
+                                <td id="criar-conta"><a href="#">Criar conta</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer-geral">
+        <div id="div-make-the-changes">
+            <ul class="lista-rodape">
+                <li class="titulo-lista-rodape">make the change</li>
+                <li><a href="#">Para Empresas</a></li>
+                <li>&nbsp;</li>
+            </ul>
+        </div>
+
+        <div id="div-informacoes">
+            <ul class="lista-rodape">
+                <li class="titulo-lista-rodape">Informações</li>
+                <li><a href="#">Central de ajuda</a></li>
+                <li><a href="#">Termos e Políticas</a></li>
+            </ul>
+        </div>
+
+        <div id="div-download-rodape">
+            <h3>Download <br>
+                Grátis
+            </h3>
+
+            <div id="playstore"><a href="#"><img src="images/playstore.png" alt="" id="play" class="img-download"></a></div>
+
+            <div id="appstore"><a href="#"><img src="images/appstore.png" alt="" id="app" class="img-download"></a></div>
+        </div>
+    </div>
+
+        <div id="hr"></div>
+
+            <div id="div-logo-rodape">
+                <img src="images/logo-rodape.png" alt="" id="img-logo-rodape">
+            </div>
+
+            <div id="social-media">
+                <a href=""><img src="images/linkedin.png" alt="" class="social"></a>
+                <a href=""><img src="images/facebook.png" alt="" class="social"></a>
+                <a href=""><img src="images/twitter.png" alt="" class="social"></a>
+                <a href=""><img src="images/instagram.png" alt="" class="social"></a>
+            </div>
+
+    </footer>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

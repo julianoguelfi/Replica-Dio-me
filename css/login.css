@@ -1,0 +1,310 @@
+body{
+    margin: auto;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    color:#fff;
+    background-image: linear-gradient(to left,#1e192c ,#1e192c );
+}
+/*======================= CABEÇALHO ================================*/
+
+header{
+    display: flex;
+    height: 60px;
+    background-color: #151515;
+}
+
+/*============= LOGO JULIANO =================*/
+#logo{
+    display: inline-block;
+    width: 142px;
+    height: 50px;
+    padding: 5px 0px 0px 30px;
+}
+
+/*========== MENU DE LISTA ====================*/
+nav{
+    display: inline-block;
+    padding-left: 300px;
+    width: 680px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    padding-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color:#fff
+}
+
+nav a:hover{
+    color:#e4105d;
+}
+
+/*======== BOTÃO ENTRAR E CADASTRAR CABEÇALHO ======================*/
+
+#btn-entrar{ 
+    margin-top: 17px;
+    background-color: #565656;
+    color:#fff;
+    width: 180px;
+    height: 27px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+
+#btn-entrar:hover{
+    background-color:#e4105d;
+}
+
+#btn-cadastrar{
+    margin-top: 17px;
+    margin-right:220px;
+    margin-left: 20px;
+    background-color: #565656;
+    color:#fff;
+    width: 210px;
+    height: 27px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+#btn-cadastrar:hover{
+    background-color:#e4105d;
+}
+/*====================================*/
+
+/*================= MAIN ===================*/
+
+main{
+    display: flex;
+    height: 555px;
+}
+section{
+    width: 0px;
+}
+.identificador{
+    width: 90px;
+    height: 8px;
+    border-radius: 5px;
+    background-image: linear-gradient(to left,#3f275d ,#743f9a);
+}
+/*============= ARTICLE ======================*/
+
+#article-geral{
+    margin-top: 65px;
+    margin-left: 230px;
+    width: 350px;
+    height: 350px;
+}
+
+#article-geral p{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
+}
+/*================= ASIDE FORMS ========================*/
+
+#aside-geral{
+    margin-top: 65px;
+    margin-left: 800px;
+    width: 350px;
+    height: 350px;
+}
+
+#aside-geral h1{
+    font-size: 33px;
+}
+
+.input{
+    padding: 5px;
+    padding-top: 25px;
+    width: 305px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid rgb(114, 114, 114);
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.input::placeholder{
+    color: #fff;
+
+}
+
+.input:focus{
+    border-color: rgb(126, 33, 155);
+    color: #fff;
+}
+
+#form-email{ /*IMAGEM DO ICONE DO EMAIL*/
+    background-image: url(../images/email-icon.svg);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+
+#form-senha{ /*IMAGEM DO ICONE DA SENHA*/
+    background-image: url(../images/senha-icon.svg);
+    background-repeat: no-repeat;  
+    padding-left: 25px;
+}
+
+#botao{
+    margin-top: 50px;
+    width: 328px;
+    height: 55px;
+    border: 1px solid #3a3741;
+    border-radius: 25px;
+}
+
+#btn_entrar{
+    margin-top: 7.5px;
+    margin-left: 10px;
+    width: 310px ;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #8e8c95;
+    background-color: #3a3741;   
+    border: none;
+}
+
+#link-conta-senha{ /*LINK AMARELO E VERDE*/
+    margin-top: 50px;
+}
+
+#esqueci-senha a{
+    color:#dfe042; 
+    text-decoration: none;
+ }
+ 
+ #esqueci-senha:hover{
+     text-decoration: underline;
+ }
+
+#criar-conta a{
+    padding-left: 80px;
+   color:#23dc7a; 
+   text-decoration: none;
+}
+
+#criar-conta:hover{
+    text-decoration: underline;
+}
+
+/*================== RODAPÉ =====================*/
+footer{
+    background-color: #0d1228;
+    height: 550px;
+    width: 100%;
+}
+
+#footer-geral{
+    display: flex;
+}
+
+/*== DIV DO MEIO (MAKE THE CHANGES - INFORMAÇÕES E DOWNLOAD) ==*/
+#div-make-the-changes{
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 150px;
+    height: 120px;
+    display: inline-block;
+}
+
+#div-informacoes{
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 200px;
+    height: 120px;
+    display: inline-block;
+}
+
+.lista-rodape li, a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+}
+
+#div-download-rodape{
+    margin-top: 50px;
+    margin-left: 120px;
+    width: 500px;
+    display: inline-block;
+    text-align: center;
+}
+
+#div-download-rodape h3{
+    font-size: 32px;
+}
+
+/*== IMAGENS DE DOWNLOAD PLAYSTORE E APPSTORE ==*/
+.img-download{ 
+    width: 123px;
+    height: 32px;
+}
+
+#playstore{
+    width: 170px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 40px;
+    padding-top: 15px;
+    display: inline-block;
+}
+
+#appstore{
+    margin-left: 25px;
+    width: 170px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 40px;
+    padding-top: 13px;
+    display: inline-block;
+}
+
+#hr{
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+    border: .1px solid rgb(49, 49, 49);
+}
+
+/*== LOGO E REDES SOCIAIS ==*/
+
+#div-logo-rodape{
+    display: block;
+    padding-top: 50px;
+    width: 300px;
+    margin: auto;
+}
+
+#img-logo-rodape{
+    display: block;
+    width: 300px;
+}
+
+#social-media{
+    display: block;
+    margin: auto;
+    width: 175px;
+    padding-top: 20px;
+}
+
+.social{
+    width: 40px;
+}
+
+
+
+
+
